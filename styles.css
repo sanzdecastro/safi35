@@ -88,10 +88,10 @@ html, body {
 }
 .hero-photo {
 
-  top: 11%;
+  top: 8%;
   left: 50%;
-
-  width: clamp(120px, 30vw, 200px);
+  margin-top: -50px;
+  width: clamp(160px, 30vw, 200px);
   perspective: 800px;
 }
 

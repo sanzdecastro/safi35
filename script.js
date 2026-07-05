@@ -71,14 +71,14 @@ gsap.to('.hero-photo img', {
 --------------------------------------------------- */
 gsap.from('.hero-photo', {
   opacity: 0,
-  y: 30,
+  y: 40,
   duration: 1,
   ease: 'power3.out',
 });
 
 gsap.from('.hero-logo', {
   opacity: 0,
-  y: 40,
+  y: 30,
   duration: 1,
   ease: 'power3.out',
   delay: 0.2,
