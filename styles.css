@@ -106,9 +106,8 @@ html, body {
 
 .hero-logo {
 
-  top: 42%;
-  left: 50%;
-  transform: translateY(-50%);
+
+  transform: translateY(-10%);
   width: clamp(140px, 32vw, 260px);
 }
 
