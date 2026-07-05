@@ -270,7 +270,9 @@ html, body {
 .day-title--dark { color: #1a1200; }
 
 .day-copy {
-  font-size: 16px;
+  font-family: 'Anybody', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
   line-height: 1.6;
   color: var(--green);
   opacity: 0.9;
