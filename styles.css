@@ -229,9 +229,16 @@ html, body {
 
 .kara-o-queer svg {
   width: 100%;
+  margin-bottom: 20px;
   height: auto;
+  transform: scale(1.5);
   display: block;
+  fill: var(--teal);
   filter: drop-shadow(0 4px 14px rgba(0, 255, 218, 0.35));
+
+  path {
+    fill: var(--teal);
+  }
 }
 
 /* ---- day sections ---- */
