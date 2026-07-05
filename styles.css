@@ -118,11 +118,15 @@ html, body {
   filter: drop-shadow(0 6px 18px rgba(0, 0, 0, 0.15));
 }
 
-.badge {
+.badge-container {
   position: absolute;
-  border-radius: 10px;
   top: 64%;
   left: 50%;
+}
+.badge {
+  
+  border-radius: 10px;
+  
   transform: translateX(-50%) rotate(-14deg);
   background: var(--yellow);
   color: #000;
@@ -140,8 +144,8 @@ html, body {
     transform: translateX(-40%) rotate(-10deg);
     background-color: white;
     z-index: -1;
-    top: 76%;
-    left: 53%;
+    margin-top: -10px;
+    margin-left: -20px;
   }
 
   em {
